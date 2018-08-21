@@ -5,10 +5,10 @@ package com.tjlcast.cache;
  *         时间 2018/8/10.
  *         说明 ...
  */
-public class AbstractCache implements Cache {
+public abstract class AbstractCache implements Cache {
 
     @Override
     public <T> T getObject(String key, Invoker<T> invoker, int second) {
-
+        return null;
     }
 }
